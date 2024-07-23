@@ -57,6 +57,8 @@ The layout for the portfolio should include:
 - Deadsec Application
 - Text-based Game
 - cat website
+- Serena Inn Website
+- Maybe the AAA Website
 
 ### Artwork
 - Demo Game Artworks from website
