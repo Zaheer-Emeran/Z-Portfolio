@@ -111,7 +111,7 @@ body {
   
   /* ------------------------------------ */
 
-  /* EXPERIENCE AND EDUCATION */
+  /* EXPERIENCE*/
 
 .Main-Content_Experience-Container{
   width: auto; height: auto; background-color: var(--Black);
@@ -268,13 +268,13 @@ body {
 
   }
 
-  .Main-Content_Language-Skills-Section{
+  .Main-Content_Img-Container{
     display: inline-grid;
     grid-template-columns: auto auto auto;
     width: 1300px;
   }
     
-  .Main-Content_Language-Skills-Content {
+  .Main-Content_Img-Container-Content {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     height: 400px;
@@ -296,7 +296,7 @@ body {
 
     /* APPLICATIONS SKILLS */
   .Main-Content_Applications-Container{
-    width: auto; height: 60vh; background-color: var(--Black);
+    width: auto; height: auto; background-color: var(--Brown);
     padding-left: 10vw;
   }
 
