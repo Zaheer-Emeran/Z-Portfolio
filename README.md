@@ -49,6 +49,8 @@ The layout for the portfolio should include:
 - Ms Office
 - Godot
 - Unity
+- Power Automate
+- Power Bi
 
 ### Projects
 - 1st Year Website 
