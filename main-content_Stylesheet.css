@@ -1,0 +1,348 @@
+/* CSS RESET */
+div, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+:root{
+  --Black: #292724;
+  --Brown: #5F403854;
+  --Bronze: #AD6B44;
+  --Light-Bronze: #FFFFBE;
+  --Blue: #AEE6F8;
+  --Grey: #4C4A46;
+  --Light-Bronze_Hover: #F9D97B;
+  --Main-Font_Size: 18px;
+  --Main-Font_Color:#FFF6E2;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: var(--Black);
+  }
+  
+  .sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20vh;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    padding-right: 10px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #FFF6E294;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: var(--Main-Font_Color);
+  }
+
+
+  .Main-Image-Container{
+    width: auto; height: 80vh; background-color: var(--Black);
+    padding-left: 10vw;
+  }
+  
+  /* MAIN DESCRIPTION */
+  .Main-Content_Description-Container{
+    width: auto; height: auto; background-color: var(--Bronze);
+    padding-left: 200px;
+    padding-bottom: 80px;
+    clear: both;
+  }
+
+  .Main-Content_Description-Title{
+    padding-top: 80px;
+    width: 1000px;
+    color: var(--Main-Font_Color);
+    font-size: 30px;
+  }
+  
+  .Main-Content_Description-Paragraph{
+    width: 700px;
+    color: var(--Main-Font_Color);
+    font-size: var(--Main-Font_Size);
+    float: left;
+    margin-bottom: 40px;
+  }
+
+  .Main-Content_Description-Skills_img{
+    width: 500px;
+    height: 340px;
+    float: right;
+    margin-right: 50px;
+    background-color: #292724;
+  }
+
+  button{
+    background-color: var(--Brown); 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .Main-Content_Description-CV-Button{
+    background-color: var(--Main-Font_Color); 
+    color: black; 
+    border: 2px solid var(--Brown);
+  }
+
+  .Main-Content_Description-CV-Button:hover{
+    background-color: var(--Brown);
+    color: white;
+  }
+
+  
+  /* ------------------------------------ */
+
+  /* EXPERIENCE AND EDUCATION */
+
+.Main-Content_Experience-Container{
+  width: auto; height: auto; background-color: var(--Black);
+
+  padding-bottom: 25px;
+}
+.Main-Content_Experience-Container h1{
+  padding-top: 40px;
+  padding-left: 210px;
+  color: var(--Main-Font_Color);
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+
+
+
+
+  /* ------------------------------------ */
+
+   /* LANGUAGE SKILLS */
+   
+  .Main-Content_Language-Skills-Container{
+    width: auto; height: auto; background-color: var(--Bronze);
+    padding-left: 10vw;
+
+  }
+
+  .Main-Content_Language-Skills-Section{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 1300px;
+  }
+    
+  .Main-Content_Language-Skills-Content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 400px;
+    width: 350px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+    text-align: center;
+  } 
+
+  .Main-Content_Language-Skills-Image{
+
+  }
+
+  .Main-Content_Language-Skills-Description{
+
+  }
+    /* ------------------------------------ */
+
+    /* APPLICATIONS SKILLS */
+  .Main-Content_Applications-Container{
+    width: auto; height: 60vh; background-color: var(--Black);
+    padding-left: 10vw;
+  }
+
+  .Main-Content_Applications-Image{
+
+  }
+
+  .Main-Content_Applications-Description{
+
+  }
+    /* ------------------------------------ */
+
+    /* PROJECTS */
+    .Main-Content_Content-Container{
+      width: auto; height: 60vh; background-color: var(--Black);
+      padding-left: 10vw;
+    }
+    /* ------------------------------------ */
+
+    /* ARTWORK */
+    .Main-Content_Artwork-Container{
+      width: auto; height: 60vh; background-color: var(--Black);
+      padding-left: 10vw;
+    }
+    /* ------------------------------------ */
+
+    /* Contact Me */
+    .Main-Content_Contact-Me-Container{
+      width: auto; height: 60vh; background-color: var(--Black);
+      padding-left: 10vw;
+    }
+
+    .Main-Content_Contact-Me-Image{
+
+    }
+
+    /* ------------------------------------ */
+
+  
+
+
+
+
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
