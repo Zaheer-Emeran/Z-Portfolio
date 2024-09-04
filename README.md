@@ -1,12 +1,12 @@
 # Theme: Overgrown Magepunk
 
 # Colours
-Black: #292724
-Brown: #5F4038
-Bronze: #AD6B44
-Light Bronze: #FFFFBE
-Blue: #AEE6F8
-
+- Black: #292724
+- Brown: #5F4038
+- Bronze: #AD6B44
+- Light Bronze: #FFFFBE
+- Blue: #AEE6F8
+- Grey: #4C4A46
 # Layout
 The layout for the portfolio should include:
 
