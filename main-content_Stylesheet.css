@@ -231,7 +231,7 @@ body {
   /* Full-width containers */
   .container {
   width: 100%;
-  padding-left: 70px;
+  padding-left: 100px;
   padding-right: 25px;
   }
   
@@ -264,7 +264,7 @@ body {
    
   .Main-Content_Language-Skills-Container{
     width: auto; height: auto; background-color: var(--Bronze);
-    padding-left: 10vw;
+    padding-left: 150px;
 
   }
 
@@ -311,8 +311,8 @@ body {
 
     /* PROJECTS */
     .Main-Content_Content-Container{
-      width: auto; height: 60vh; background-color: var(--Black);
-      padding-left: 10vw;
+      width: auto; height: auto; background-color: var(--Black);
+      padding-left: 13vw;
     }
     /* ------------------------------------ */
 
