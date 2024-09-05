@@ -27,7 +27,7 @@ body {
     position: fixed;
     z-index: 2;
     top: 5px;
-    left: 15px;
+    left: 14px;
     overflow-x: hidden;
   text-align: center;
   font-weight: bold;
@@ -60,7 +60,7 @@ body {
   }
 
   .Main-Image-Container{
-    width: auto; height: 80vh; 
+    width: auto; height: 90vh; 
     background-color: var(--Black);
     padding-left: 50;
   }
@@ -86,8 +86,8 @@ body {
   .Main-Content_Description-Container{
     width: auto; 
     height: auto; 
-    background: linear-gradient(152deg, rgba(78, 51, 34, 1) 23%, rgba(129, 84, 58, 1) 100%);
-    padding-left: 170px;
+    background: linear-gradient(322deg, rgba(78, 51, 34, 1) 0%, rgba(24, 13, 6, 1) 100%);
+    padding-left: 210px;
     padding-bottom: 50px;
     padding-top: 50px;
     clear: both;
@@ -95,7 +95,7 @@ body {
 
   .Main-Content_Description-Title{
     padding-bottom: 30px;
-    width: 1200px;
+    width: 1130px;
     color: var(--Main-Font_Color);
     font-size: 15px;
     font-style: italic;
@@ -117,10 +117,8 @@ body {
   }
 
   button{
-    background-color: var(--Brown); 
+    background-color: transparent; 
     border: none;
-    color: white;
-    padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -137,11 +135,9 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     color: black; 
-    border: 2px solid var(--Brown);
   }
 
   .Main-Content_Description-CV-Button:hover{
-    background-color: var(--Brown);
     color: #7EEFFF;
 
   }
