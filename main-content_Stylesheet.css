@@ -84,13 +84,25 @@ body {
   }
 
   .Main-Content_Description-Container{
+    
     width: auto; 
     height: auto; 
+    background-size: 100px;
+    background-repeat: no-repeat;
     background: linear-gradient(322deg, rgba(78, 51, 34, 1) 0%, rgba(24, 13, 6, 1) 100%);
     padding-left: 210px;
     padding-bottom: 50px;
     padding-top: 50px;
     clear: both;
+    
+  }
+
+  .Main-Content_Description-Container_Background{
+    width: auto; 
+    height: auto; 
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-image: url(Images/bckgr_gear-bronze.png);
   }
 
   .Main-Content_Description-Title{
@@ -305,7 +317,9 @@ body {
     flex-wrap: nowrap;
   }
   .Main-Content_Language-Skills_Card > div{
-    background-color: #f1f1f1;
+    background-image: url(Images/square-container.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 340px;
     margin: 10px;
     text-align: center;
