@@ -78,7 +78,7 @@ body {
   .flex-container > div {
     width: 600px;
     margin-right: 4px;
-    height: 270px;
+    height: 290px;
     color: var(--Main-Font_Color);
     font-size: 18px;
   }
@@ -123,7 +123,6 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
   }
