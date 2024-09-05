@@ -24,28 +24,41 @@ body {
   }
   
   .sidenav {
-    width: 130px;
+    width: 630px;
     position: fixed;
-    z-index: 1;
-    top: 20vh;
+    z-index: 2;
+    top: 28vh;
     left: 10px;
     overflow-x: hidden;
-    padding: 8px 0;
     padding-right: 10px;
   }
+  
   
   .sidenav a {
     padding: 6px 8px 25px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 13px;
     color: #FFF6E294;
     display: block;
   }
   
   .sidenav a:hover {
-    color: var(--Main-Font_Color);
+    color: #7EEFFF;
   }
 
+  .sidenav-background{
+    width: 355px;
+    position: fixed;
+    top: 13vh;
+    z-index: 1;
+
+    overflow-x: hidden;
+    padding-right: 10px;
+    height: 680px;
+    background-image: url(Images/side-nav_background2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 
   .Main-Image-Container{
     width: auto; height: 80vh; background-color: var(--Black);
@@ -53,34 +66,43 @@ body {
   }
   
   /* MAIN DESCRIPTION */
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  #flex-container-Div_Paragraph{
+    width: 650px;
+  }
+
+  .flex-container > div {
+    width: 400px;
+    margin-right: 10px;
+    height: 400px;
+  }
+
   .Main-Content_Description-Container{
     width: auto; height: auto; background-color: var(--Bronze);
     padding-left: 200px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     clear: both;
   }
 
   .Main-Content_Description-Title{
-    padding-top: 80px;
+    padding-top: 10px;
     width: 1000px;
     color: var(--Main-Font_Color);
-    font-size: 30px;
+    font-size: 15px;
   }
   
   .Main-Content_Description-Paragraph{
-    width: 700px;
-    color: var(--Main-Font_Color);
-    font-size: var(--Main-Font_Size);
-    float: left;
-    margin-bottom: 40px;
+   
   }
 
   .Main-Content_Description-Skills_img{
-    width: 500px;
-    height: 340px;
-    float: right;
-    margin-right: 50px;
+    width: 100%;
+    height: 100%;
     background-color: #292724;
+    float: right;
   }
 
   button{
@@ -262,51 +284,43 @@ body {
 
    /* LANGUAGE SKILLS */
    
-  .Main-Content_Language-Skills-Container{
+  .Main-Content_Language-Container{
     width: auto; height: auto; background-color: var(--Bronze);
     padding-left: 150px;
-
   }
 
-  .Main-Content_Img-Container{
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    width: 1300px;
+  .Main-Content_Language-Skills_Card{
+    display: flex;
+    flex-wrap: nowrap;
   }
-    
-  .Main-Content_Img-Container-Content {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    height: 400px;
-    width: 350px;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    font-size: 30px;
+  .Main-Content_Language-Skills_Card > div{
+    background-color: #f1f1f1;
+    width: 340px;
+    margin: 10px;
     text-align: center;
-  } 
-
-  .Main-Content_Language-Skills-Image{
-
-  }
-
-  .Main-Content_Language-Skills-Description{
-
+    height: 400px;
   }
     /* ------------------------------------ */
 
-    /* APPLICATIONS SKILLS */
+    /* APPLICATIONS*/
   .Main-Content_Applications-Container{
     width: auto; height: auto; background-color: var(--Brown);
     padding-left: 10vw;
   }
 
-  .Main-Content_Applications-Image{
-
+  .Main-Content_Applications-Skills_Card{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .Main-Content_Applications-Skills_Card > div{
+    background-color: #f1f1f1;
+    width: 340px;
+    margin: 10px;
+    text-align: center;
+    height: 400px;
   }
 
-  .Main-Content_Applications-Description{
-
-  }
+  
     /* ------------------------------------ */
 
     /* PROJECTS */
