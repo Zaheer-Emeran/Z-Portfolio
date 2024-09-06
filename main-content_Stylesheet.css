@@ -160,146 +160,65 @@ body {
 
 .Main-Content_Experience-Container{
   width: auto; height: auto; background-color: var(--Black);
-  padding-left: 50px;
-  padding-bottom: 25px;
+  
+  padding-bottom: 15px;
 }
-.Main-Content_Experience-Container h1{
-  padding-top: 40px;
-  padding-left: 210px;
+
+
+.Main-Content_Experience-Card{
+  width: 1100px;
+  height: 1100px;
+  background-image: url(Images/experience-Bubble_Container.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.Main-Content_Experience-Card_Bubble-Container{
+  width: 450px;
+  height: 210px;
+  margin-left: 40px;
+  position: absolute;
   color: var(--Main-Font_Color);
-
 }
 
-* {
-  box-sizing: border-box;
+
+#Experience-Card_Bubble-1{
+  top: 110px;
+  left: 2px;
 }
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
+#Experience-Card_Bubble-2{
   position: absolute;
-  width: 6px;
-  background-color: white;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
+  top: 45%;
+  left: 72%;
+  transform: translate(-50%, -50%);
 }
 
-/* Container around content */
-.container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-
-/* The circles on the timeline */
-.container::after {
-  content: '';
+#Experience-Card_Bubble-3{
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-/* Place the container to the left */
-.left {
-  left: 0;
-}
-
-/* Place the container to the right */
-.right {
-  left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-  left: -16px;
-}
-
-/* The actual content */
-.content {
-  padding: 20px 30px;
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-  left: 31px;
-  }
-  
-  /* Full-width containers */
-  .container {
-  width: 100%;
-  padding-left: 100px;
-  padding-right: 25px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-  left: 15px;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-  left: 0%;
-  }
+  bottom: 237px;
+  left: 2px;
 }
 
 
+
+.Main-Content_Experience-Card_Bubble-Title{
+  font-weight: bolder;
+  width: 80%;
+  height: auto;
+  padding-top: 1px;
+}
+
+
+
+.Main-Content_Experience-Card_Bubble-Description{
+  margin-top: 40px;
+  width: auto;
+  height: 125px;
+}
 
 
 
@@ -309,7 +228,7 @@ body {
    
   .Main-Content_Language-Container{
     width: auto; height: auto; background-color: var(--Bronze);
-    padding-left: 150px;
+    padding-left: 220px;
   }
 
   .Main-Content_Language-Skills_Card{
@@ -324,13 +243,15 @@ body {
     margin: 10px;
     text-align: center;
     height: 400px;
+    
   }
     /* ------------------------------------ */
 
     /* APPLICATIONS*/
   .Main-Content_Applications-Container{
     width: auto; height: auto; background-color: var(--Brown);
-    padding-left: 10vw;
+    padding-left: 220px;
+
   }
 
   .Main-Content_Applications-Skills_Card{
@@ -353,6 +274,19 @@ body {
       width: auto; height: auto; background-color: var(--Black);
       padding-left: 13vw;
     }
+
+    .Main-Content_Projects-Card{
+      width: 1200px;
+      height: 190px;
+      background-image: url(Images/Project-Card.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-bottom: 20px;
+    }
+
+
+
+
     /* ------------------------------------ */
 
     /* ARTWORK */
