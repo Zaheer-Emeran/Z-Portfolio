@@ -269,6 +269,12 @@ body {
     height: 400px;
   }
 
+  .Main-Content_Language-Skills_Card img{
+    margin-top: 50px;
+    width: 80%;
+  height: 65%;
+  }
+
   
     /* ------------------------------------ */
 
