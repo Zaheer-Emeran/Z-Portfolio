@@ -9,7 +9,7 @@ div, body {
 :root{
   --Black: #292724;
   --Brown: #5F403854;
-  --Bronze: #AD6B44;
+  --Bronze: # ;
   --Light-Bronze: #FFFFBE;
   --Blue: #AEE6F8;
   --Grey: #4C4A46;
@@ -162,7 +162,7 @@ body {
   /* EXPERIENCE*/
 
 .Main-Content_Experience-Container{
-  width: auto; height: auto; background-color: var(--Black);
+  width: auto; height: auto; background-color: var(--Brown);
   
   padding-bottom: 15px;
 }
@@ -230,8 +230,12 @@ body {
    /* LANGUAGE SKILLS */
    
   .Main-Content_Language-Container{
-    width: auto; height: auto; background-color: var(--Bronze);
+    width: auto; height: auto;
     padding-left: 220px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #292724;
+    
   }
 
   .Main-Content_Language-Skills_Card{
@@ -314,8 +318,19 @@ body {
     .Main-Content_Projects-Card_Img{
         width: 100px;
         height: 100px;
-        
     }
+
+    .Main-Content_Projects-Card_Img img{
+      padding-top: 3px;
+      width: 99%;
+      height: 99%;
+    }
+
+    .Main-Content_Projects-Card a{
+    text-decoration: none;  
+    
+    }
+
     .Main-Content_Projects-Card_Title{
       padding-top: 15px;
       width: 800px;
