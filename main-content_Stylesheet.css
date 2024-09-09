@@ -60,9 +60,10 @@ body {
   }
 
   .Main-Image-Container{
-    width: auto; height: 643px; 
+    width: auto; 
+    height: 643px; 
     background-color: var(--Black);
-    padding-left: 50;
+
     background-image: url(Images/Background_Scene-Factory6.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -81,7 +82,7 @@ body {
   .flex-container > div {
     width: 600px;
     margin-right: 4px;
-    height: 290px;
+    height: auto;
     color: var(--Main-Font_Color);
     font-size: 18px;
   }
@@ -162,9 +163,10 @@ body {
   /* EXPERIENCE*/
 
 .Main-Content_Experience-Container{
-  width: auto; height: auto; background-color: var(--Brown);
+  width: auto; 
+  height: auto; 
+  background-color: var(--Black);
   
-  padding-bottom: 15px;
 }
 
 
@@ -230,12 +232,12 @@ body {
    /* LANGUAGE SKILLS */
    
   .Main-Content_Language-Container{
-    width: auto; height: auto;
+    width: auto; 
+    height: auto;
     padding-left: 220px;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #292724;
-    
+    background-size: 120vw;
+    background-image: url(Images/Background-wood.3.png);
   }
 
   .Main-Content_Language-Skills_Card{
@@ -256,7 +258,9 @@ body {
 
     /* APPLICATIONS*/
   .Main-Content_Applications-Container{
-    width: auto; height: auto; background-color: var(--Brown);
+    width: auto; 
+    height: auto; 
+    background-color: var(--Brown);
     padding-left: 220px;
 
   }
@@ -265,6 +269,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
   }
+
   .Main-Content_Applications-Skills_Card > div{
     background-color: #f1f1f1;
     width: 340px;
