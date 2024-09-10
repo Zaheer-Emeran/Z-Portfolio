@@ -1,5 +1,11 @@
 /* CSS RESET */
-div, body {
+/* Extra small devices (phones, 600px and down) */  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* Large devices (laptops/desktops, 992px and up) */
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+
+div, body ,img{
   margin: 0;
   padding: 0;
   border: 0;
@@ -21,7 +27,7 @@ div, body {
 body {
     font-family: "Lato", sans-serif;
     background-color: var(--Black);
-  }
+}
   
   .sidenav {
     position: fixed;
@@ -60,14 +66,16 @@ body {
   }
 
   .Main-Image-Container{
-    width: auto; 
-    height: 643px; 
-    background-color: var(--Black);
-
-    background-image: url(Images/Background_Scene-Factory6.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: auto;
+    height: 40vw;
   }
+
+  .Main-Image-Container > img{
+    width: 100%;
+    height: 100%;
+  }
+
+
   
   /* MAIN DESCRIPTION */
   .flex-container {
@@ -76,33 +84,32 @@ body {
     
   }
   #flex-container-Div_Paragraph{
-    width: 700px;
+    width: 70vw;
   }
 
   .flex-container > div {
-    width: 600px;
-    margin-right: 4px;
+    width: 20vw;
     height: auto;
     color: var(--Main-Font_Color);
     font-size: 18px;
   }
 
   .Main-Content_Description-Container{
-    
+    padding-left: 2vw;
     width: auto; 
     height: auto; 
-    background-size: 100px;
+    background-size: 100%;
     background-repeat: no-repeat;
     background: linear-gradient(322deg, rgba(78, 51, 34, 1) 0%, rgba(24, 13, 6, 1) 100%);
-    padding-left: 210px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
     clear: both;
-    
+    color: var(--Main-Font_Color);
   }
 
   .Main-Content_Description-Container_Background{
     width: auto; 
+    background-color: #7EEFFF;
     height: auto; 
     background-size: 100px;
     background-repeat: no-repeat;
@@ -110,26 +117,35 @@ body {
   }
 
   .Main-Content_Description-Title{
-    padding-bottom: 30px;
-    width: 1130px;
+    padding-bottom: 3vw;
+    height: 2vw;
     color: var(--Main-Font_Color);
-    font-size: 15px;
+    font-size: 1vw;
     font-style: italic;
-    font-weight: 100;
+    font-weight: bold;
+    margin-bottom: 1vw;
   }
   
   .Main-Content_Description-Paragraph{
-   width: 530px;
-   padding-top: 21px;
+    height: auto;
+    width: 50vw;
+    font-size: 1vw;
+    margin-top: 3vw;
   }
 
   .Main-Content_Description-Skills_img{
-    background-image: url(Images/img_description-level_bars2.png);
-    background-size: 510px;
-    background-repeat: no-repeat;
+    height: 40vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .Main-Content_Description-Skills_img img{
     width: 100%;
     height: 100%;
-    float: right;
+    
   }
 
   button{
@@ -144,18 +160,58 @@ body {
   }
 
   .Main-Content_Description-CV-Button{
-    width: 200px;
-    height: 80px;
+    width: 12vw;
+    height: 5vw;
     background-image: url(Images/button-icon.png);
     background-size: 100%;
     background-repeat: no-repeat;
     color: black; 
+    font-size: 1vw;
+    margin-top: 2vw;
   }
 
   .Main-Content_Description-CV-Button:hover{
     color: #7EEFFF;
 
   }
+
+
+
+  /* Desktop View */
+  @media screen and (min-width: 1000px){
+    .Main-Content_Description-Skills_img {
+    float: right;
+    height: 20vw;
+    width: 35vw;
+      margin-right: 2vw;
+    }
+  }
+
+
+  /* Mobile View */
+  @media screen and (max-width: 1000px){
+    .Main-Content_Description-Paragraph {
+      margin-left: auto;
+      margin-right: auto;
+      width: 90vw;
+      height: auto;
+      font-size: 2.2vw;
+    }
+
+    .Main-Content_Description-CV-Button{
+      width: 32vw;
+      height: 13vw;
+      font-size: 3vw;
+      margin-left: 2.6vw;
+    }
+
+    .Main-Content_Description-Title{
+      height: 10vw;
+      font-size: 2.1vw;
+      margin-bottom: 3vw;
+      text-align: center;
+    }
+  } 
 
   
   /* ------------------------------------ */
@@ -216,7 +272,6 @@ body {
   height: auto;
   padding-top: 1px;
 }
-
 
 
 .Main-Content_Experience-Card_Bubble-Description{
@@ -360,14 +415,14 @@ body {
 
     /* ARTWORK */
     .Main-Content_Artwork-Container{
-      width: auto; height: 60vh; background-color: var(--Black);
+      width: auto; height: 60vw; background-color: var(--Black);
       padding-left: 10vw;
     }
     /* ------------------------------------ */
 
     /* Contact Me */
     .Main-Content_Contact-Me-Container{
-      width: auto; height: 60vh; background-color: var(--Black);
+      width: auto; height: 60vw; background-color: var(--Black);
       padding-left: 10vw;
     }
 
