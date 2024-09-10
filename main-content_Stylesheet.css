@@ -219,22 +219,23 @@ body {
   /* EXPERIENCE*/
 
 .Main-Content_Experience-Container{
-  width: auto; 
-  height: auto; 
-  background-color: var(--Black);
-  
+  height: 70vw; 
+        width: 70vw; 
+        background-color: darkblue; 
+        margin: auto;
+        background-image: url(Images/BUBBLE2.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-top: 5.7vw;
 }
 
 
 .Main-Content_Experience-Card{
-  width: 1100px;
-  height: 1100px;
-  background-image: url(Images/experience-Bubble_Container.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+  height: 14vw; 
+  width: 30vw; 
+  background-color: yellow;
+  margin-left: 55%; 
+  margin-bottom: 10vw;
 }
 
 .Main-Content_Experience-Card_Bubble-Container{
