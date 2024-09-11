@@ -218,68 +218,49 @@ body {
 
   /* EXPERIENCE*/
 
+  .Main-Content_Experience-Container_All{
+    background: linear-gradient(167deg, rgba(41, 39, 36, 1) 0%, rgba(24, 23, 21, 1) 100%);
+   
+  }
 .Main-Content_Experience-Container{
-  height: 70vw; 
+        height: 70vw; 
         width: 70vw; 
-        background-color: darkblue; 
         margin: auto;
         background-image: url(Images/BUBBLE2.png);
         background-size: 100%;
         background-repeat: no-repeat;
         padding-top: 5.7vw;
+        color: var(--Main-Font_Color);
+        line-height: 1.2vw;
+       
 }
 
+.Main-Content_Experience-Container h1{
+  font-weight: 900;
+  color: var(--Blue);
+  font-size: 2vw;
+}
 
 .Main-Content_Experience-Card{
-  height: 14vw; 
-  width: 30vw; 
-  background-color: yellow;
-  margin-left: 55%; 
-  margin-bottom: 10vw;
+  height: 13vw; 
+  width: 28vw; 
+  margin-left: 56%; 
+  margin-bottom: 12vw;
 }
 
-.Main-Content_Experience-Card_Bubble-Container{
-  width: 450px;
-  height: 210px;
-  margin-left: 40px;
-  position: absolute;
-  color: var(--Main-Font_Color);
+#Main-Content_Experience-Container_Box1{
+  height: 12vw; 
+  width: 28vw;
+  margin-left: 3vw; 
+  margin-bottom: 11vw;
+  font-size: 0.9vw;
+
+}
+#Main-Content_Experience-Container_Box2{
+  font-size: 0.9vw;
+
 }
 
-
-#Experience-Card_Bubble-1{
-  top: 110px;
-  left: 2px;
-}
-
-#Experience-Card_Bubble-2{
-  position: absolute;
-  top: 45%;
-  left: 73%;
-  transform: translate(-50%, -50%);
-}
-
-#Experience-Card_Bubble-3{
-  position: absolute;
-  bottom: 237px;
-  left: 2px;
-}
-
-
-
-.Main-Content_Experience-Card_Bubble-Title{
-  font-weight: bolder;
-  width: 80%;
-  height: auto;
-  padding-top: 1px;
-}
-
-
-.Main-Content_Experience-Card_Bubble-Description{
-  margin-top: 40px;
-  width: auto;
-  height: 125px;
-}
 
 
 
@@ -290,25 +271,25 @@ body {
   .Main-Content_Language-Container{
     width: auto; 
     height: auto;
-    padding-left: 220px;
     background-repeat: no-repeat;
-    background-size: 120vw;
     background-image: url(Images/Background-wood.3.png);
+    padding-bottom: 5vw;
+
   }
 
   .Main-Content_Language-Skills_Card{
     display: flex;
     flex-wrap: nowrap;
+    
   }
   .Main-Content_Language-Skills_Card > div{
-    background-image: url(Images/square-container.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 340px;
-    margin: 10px;
-    text-align: center;
-    height: 400px;
-    
+    width: 24vw;
+    height: 25vw;
+    padding-bottom: 5vw;
+    margin: .4vw;
+  }
+  .Main-Content_Language-Skills_Card > img{
+
   }
     /* ------------------------------------ */
 
