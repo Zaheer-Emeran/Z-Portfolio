@@ -25,8 +25,12 @@ div, body ,img{
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Century Schoolbook", sans-serif;
     background-color: var(--Black);
+}
+
+a{
+  text-decoration: none;
 }
   
   .sidenav {
@@ -331,6 +335,8 @@ body {
       background-image: url(Images/Project-Card.png);
       background-repeat: no-repeat;
       background-size: 100%;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
     } 
   
     #Main-Content_Projects-Flex_Card_1{
@@ -373,19 +379,64 @@ body {
     }
     /* ------------------------------------ */
 
-    /* Contact Me */
-    .Main-Content_Contact-Me-Container{
-      width: auto; height: 60vw; background-color: var(--Black);
-      padding-left: 10vw;
-    }
+    
+    /* Footer */
 
-    .Main-Content_Contact-Me-Image{
-
-    }
+      footer{
+        width: auto; 
+        background-color: cyan; 
+        height: 35vw;
+        padding-top: 5vw;
+        background-image: url(Images/Background-wood-Black.2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      
+      .Footer-Content_Container{
+        width: 40vw; 
+        height: 30vw;
+        padding-right: 10vw;
+         
+      }
+      .Footer-Content_Container-Container{
+        
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #1B1B1B96;
+        height: 30vw;
+        padding-top: 3vw;
+      }
+      .Footer-Content_Container-Title{
+        width: 60%; 
+        height: 4vw; 
+        margin: auto;
+        text-align: center;
+        font-size: 2vw;
+        padding-bottom: 3vw;
+      }
+      .Footer-Content_Container-Description{
+        height: 7vw; 
+        width: auto;
+        font-size: 1.5vw;
+        text-align: center;
+      }
+      .Footer-Content_Container-Block{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 25vw; 
+        height: 15vw; 
+      }
+      .Footer-Content_Container-Icon_Container{
+        width: 40vw; 
+        height: 20vw; 
+      }
+      .Footer-Content_Container-Icon{
+        height: vw; 
+        width: 50%; 
+      }
 
     /* ------------------------------------ */
-
-  
+    
 
 
 
@@ -396,3 +447,8 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+
+
+
+
