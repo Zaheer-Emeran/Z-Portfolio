@@ -278,37 +278,24 @@ a{
     padding-bottom: 5vw;
     margin: .4vw;
   }
-  .Main-Content_Language-Skills_Card > img{
-
-  }
+  
     /* ------------------------------------ */
 
     /* APPLICATIONS*/
   .Main-Content_Applications-Container{
-    width: auto; 
-    height: auto; 
-    background-color: var(--Brown);
-    padding-left: 220px;
+    width: auto;
+    height: auto;
+    background-color:#4C4A4650;
 
   }
 
   .Main-Content_Applications-Skills_Card{
-    display: flex;
-    flex-wrap: nowrap;
   }
 
   .Main-Content_Applications-Skills_Card > div{
-    background-color: #f1f1f1;
-    width: 340px;
-    margin: 10px;
-    text-align: center;
-    height: 400px;
   }
 
   .Main-Content_Language-Skills_Card img{
-    margin-top: 50px;
-    width: 80%;
-  height: 65%;
   }
 
   
@@ -366,6 +353,10 @@ a{
 
    
 
+
+
+
+  
 
 
 
