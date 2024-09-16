@@ -60,14 +60,12 @@ The layout for the portfolio should include:
 - Power Bi
 
 ### Projects
-- 1st Year Website 
-- Bards Tale
-- DK Manager
-- Deadsec Application
-- Text-based Game
-- cat website
-- Serena Inn Website
-- Maybe the AAA Website
+- 1st Year Website - dun
+- Gleemans Tale - CP -  
+- Deadsec Application meybe
+- cat website ??
+- Serena Inn Website CP
+-  
 
 ### Artwork
 - Demo Game Artworks from website
