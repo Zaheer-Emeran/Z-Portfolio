@@ -90,7 +90,8 @@ The layout for the portfolio should include:
 This is a nice template to follow when I start doing a shit ton of projects for data analysis. Think about organising these projects based on categories later.
 ![image](https://github.com/user-attachments/assets/356176cd-7472-4538-b78e-4b76d8bdec35)
 
-
+This is just something important lmao
+![image](https://github.com/user-attachments/assets/e127ec62-21ec-420f-bfc7-65e6f73fa2ab)
 
 
 
